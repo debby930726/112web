@@ -150,11 +150,11 @@ div ul .fa-solid {
 
 @media(max-width:700px) {
     .text-box h1 {
-        font-size: 30px;
+        font-size: 50px;
     }
 
     .text-box h2 {
-        font-size: 20px;
+        font-size: 40px;
     }
 
     .menu-bar {
@@ -248,6 +248,7 @@ p {
 @media(max-width:700px) {
     .row {
         flex-direction: column;
+        text-align: center;
     }
 }
 
@@ -303,12 +304,6 @@ p {
     opacity: 1;
 }
 
-@media(max-width:700px) {
-    .row {
-        margin: 10%;
-    }
-}
-
 
 /*Good*/
 
@@ -340,6 +335,20 @@ p {
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: left;
+}
+
+@media(max-width:700px) {
+    .good-col img {
+        width: 100%;
+    }
+
+    .good-col p {
+        text-align: center;
+    }
+
+    .good-col h3 {
+        text-align: center;
+    }
 }
 
 /*------to action---------*/
